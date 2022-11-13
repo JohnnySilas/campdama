@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Federação Maranhense de Jogo de Dama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+
+  <style type="text/css">
+    img{
+      width: 150px;
+      height: 150px;
+    }
+   table >th, td{
+     
+      vertical-align: middle;
+
+    }
+    .bg-menu{
+      background-color: #D59020;
+    }
+
+    #myInput{
+        background-image: url('../searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+     table.table tr{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+     
+    <div class="container-fluid p-5 bg-menu text-white text-center">
+        <h1 class="animate__animated animate__fadeInUp">Federação Maranhense de Jogo de Dama</h1>
+        <p>Uma vida sem desafios, não vale a pensa ser vivida!</p> 
+      </div>
+      
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+      
+          <a class="navbar-brand" href="../index.html">FMJDm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavBar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavBar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Campeonato 2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jogadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <div>
+        </div>
+      </nav>
+      
+      
+      <div class="container mt-3 text-center">
+        <h2>Confrontos do Maranhense de dama</h2>
+        <p>A lista abaixo está os confrontos do Campeonato Maranhense de 2022</p>
+      
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar Jogador.." title="Digite um nome" >
+
+
+
+    <div class="table-responsive-sm">
+        <table id="myDados" class="table table-hover table-bordered table-primary">
+          <thead>
+        <tr class="table-dark">
+            <th>Dia</th>
+            <th>Foto</th>
+            <th>Nome Completo</th>
+            <th>X</th>
+            <th>Nome Completo</th>
+            <th>Foto</th>
+            <th>Horário</th>
+        </tr>
+          </thead>
+          <tbody>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>  
+            <td><img src="./ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td><img src="./ftJogadores/" class="img-thumbnail"></td>
+            <td>15:30</td>
+        </tr>      
+            <tr class="table-success">
+
+            </tr>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>  
+            <td><img src="./ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>  
+            <td></td>
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td>15:00</td>
+            </tr>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>  
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>  
+            <td></td>
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td>16:00</td>
+            </tr>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>    
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td>17:00</td>
+            </tr>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>    
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td>17:00</td>
+            </tr>
+        <tr class="">
+            <td>
+                <span>13/11/2022</span><br>
+                <span>Domingo</span>
+            </td>    
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td><img src="../ftJogadores/" class="img-thumbnail"></td>
+            <td>17:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        <ul class="pagination pagination-sm justify-content-center">
+          <li class="page-item"><a class="page-link" href="index.html">Primeira</a></li>
+          <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="confrontos2.html">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="confrontos2.html">Última</a></li>
+        </ul>
+      </div>
+      <footer class="mt-5 p-4 bg-dark text-white text-center">
+      
+        <p>&copy; Federação Maranhense de Jogo de Dama - FMJDm</p>
+      
+      <footer>
+      
+        <script>
+          function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myDados");
+            tr = table.getElementsByTagName("tr");
+            for (i = 1; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[1];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  tr[i].style.display = "";
+                } else {
+                  tr[i].style.display = "none";
+                }
+              }       
+            }
+          }
+          </script>
+</body>
+</html>

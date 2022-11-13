@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Federação Maranhense de Jogo de Dama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+
+  <style type="text/css">
+    img{
+      width: 150px;
+      height: 150px;
+    }
+   table >th, td{
+     
+      vertical-align: middle;
+
+    }
+    .bg-menu{
+      background-color: #D59020;
+    }
+
+    #myInput{
+        background-image: url('../searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+     table.table tr{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+     
+    <div class="container-fluid p-5 bg-menu text-white text-center">
+        <h1 class="animate__animated animate__fadeInUp">Federação Maranhense de Jogo de Dama</h1>
+        <p>Uma vida sem desafios, não vale a pensa ser vivida!</p> 
+      </div>
+      
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+      
+          <a class="navbar-brand" href="../index.html">FMJDm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavBar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavBar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Campeonato 2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jogadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <div>
+        </div>
+      </nav>
+      
+      
+      <div class="container mt-3 text-center">
+        <h2>Classificação do Campeonato Maranhense de Dama</h2>
+        <p>A lista abaixo está a classificação do Campeonato Maranhense de 2022</p>
+      
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar Jogador.." title="Digite um nome" >
+
+    <div class="table-responsive-sm">
+        <table id="myDados" class="table table-hover table-bordered table-primary">
+          <thead>
+        <tr class="table-dark">
+            <th>Posição</th>
+            <th>Nome</th>
+            <th>Pontos</th>
+        </tr>
+          </thead>
+          <tbody>
+        <tr>
+            <td>1°</td>
+            <td>José de Arimateia Santos Sousa</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2°</td>
+            <td>Rogério Santos Costa</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>3°</td>
+            <td>Francisco das Chagas Lopes Silveira</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>4°</td>
+            <td>André Luis Alves dos Santos</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>5°</td>
+            <td>Jacob Silva Santos</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>6°</td>
+            <td>Sérgio Rodrigues da Silva</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>7°</td>
+            <td>Jorge Carlos da Cunha</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>8°</td>
+            <td>Edivan de Souza Borges</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>9°</td>
+            <td>Dário Lima chaves</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>10°</td>
+            <td>Cleiton dos Santos Nascimento</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>11°</td>
+            <td>Adailton Gomes De Assunção</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>12°</td>
+            <td>Tomaz Moreira Costa</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>13°</td>
+            <td>Fernando de Jesus Lopes França</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>14°</td>
+            <td>Benedito José Cardoso Casanova</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>15°</td>
+            <td>José Ribamar Bezerra de Sousa</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>16°</td>
+            <td>Valdeci Silva Ribeiro</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>17°</td>
+            <td>Cássio Gonçalo Silva de Sousa</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>18°</td>
+            <td>Edson Mauro Ribeiro</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>19°</td>
+            <td>Francisco de Assis da Silva</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>20°</td>
+            <td>Ramon Luis Almeida de Carvalho</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>21°</td>
+            <td>Nilvan de Jesus Viegas</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>22°</td>
+            <td>Nilo Soares dos Santos</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>23°</td>
+            <td>Ivanildo Coutinho Vieira</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>24°</td>
+            <td>Tomaz Estrela</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>25°</td>
+            <td>José de Ribamar dos Santos</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>26°</td>
+            <td>Claudimar Silva Cantanhede	</td>
+            <td>0</td>
+        </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+      <footer class="mt-5 p-4 bg-dark text-white text-center">
+      
+        <p>&copy; Federação Maranhense de Jogo de Dama - FMJDm</p>
+      
+      <footer>
+      
+        <script>
+            function myFunction() {
+              var input, filter, table, tr, td, i, txtValue;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              table = document.getElementById("myDados");
+              tr = table.getElementsByTagName("tr");
+              for (i = 1; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[1];
+                if (td) {
+                  txtValue = td.textContent || td.innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                  } else {
+                    tr[i].style.display = "none";
+                  }
+                }       
+              }
+            }
+            </script>
+</body>
+</html>
